@@ -3,6 +3,7 @@ const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+require("dotenv").config();
 
 const placeRoutes = require("./routes/places-routes");
 const usersRoutes = require("./routes/users-routes");

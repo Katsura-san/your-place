@@ -1,4 +1,5 @@
 const axios = require("axios");
+require("dotenv").config();
 const HttpError = require("../models/http-error");
 const API_KEY = process.env.GEOCODE_API_KEY;
 
